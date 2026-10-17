@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+
+# Spark output and logs
+spark-warehouse/
+metastore_db/
+derby.log
+*.log
+
+# Local data files
+data/raw/
+data/processed/
